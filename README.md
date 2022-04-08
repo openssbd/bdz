@@ -5,6 +5,9 @@ The following is some progress of storing ROIs and tables for tracking
 
 **These are just test codes to test out ideas**
 
+### Slides for our proposal
+https://docs.google.com/presentation/d/1_HGms52mzrZMWRSIeevzlaQ-QS48QBGp-hLFvObKBQo
+
 Some description from the Global BioImaging Hackathon:
 
 Our initial goal was to prepare some kind of container to store the coordinates of biological objects such as the positions of molecules and nuclear contours (and their tracking information) detected by image processing.
@@ -19,9 +22,6 @@ We have already developed several data formats based on XML and HDF5, but we wan
 ### Reference:
 - https://doi.org/10.1371/journal.pone.0237468
 - https://doi.org/10.1093/bioinformatics/btu767
-
-### Slides for our proposal
-https://docs.google.com/presentation/d/1_HGms52mzrZMWRSIeevzlaQ-QS48QBGp-hLFvObKBQo
 
 ### Example datasets:
 
