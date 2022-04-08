@@ -20,6 +20,9 @@ We have already developed several data formats based on XML and HDF5, but we wan
 - https://doi.org/10.1371/journal.pone.0237468
 - https://doi.org/10.1093/bioinformatics/btu767
 
+### Slides for our proposal
+https://docs.google.com/presentation/d/1_HGms52mzrZMWRSIeevzlaQ-QS48QBGp-hLFvObKBQo
+
 ### Example datasets:
 
 http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr/
