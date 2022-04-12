@@ -1,0 +1,33 @@
+{
+  "image-label": {
+    "colors": [
+      {
+        "label-value": 255,
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    ],
+    "source": {
+      "image": "../.."
+    },
+    "version": "0.2"
+  },
+  "multiscales" : [
+    {
+      "metadata" : {
+        "method" : "loci.common.image.SimpleImageScaler",
+        "version" : "Bio-Formats 6.5.1"
+      },
+      "datasets" : [
+        {
+          "path" : "0"
+        }
+      ],
+      "version" : "0.2"
+    }
+  ]
+}

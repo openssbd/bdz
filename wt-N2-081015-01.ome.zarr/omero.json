@@ -1,0 +1,63 @@
+{
+  "id": 2008101501,
+  "meta": {
+    "imageName": "wt-N2-081015-01",
+    "imageDescription": "",
+    "imageAuthor": "Public data",
+    "projectName": "Ce_P002",
+    "projetId": 08101501,
+    "projectDescription": "",
+    "datasetName": "wt-N2-081015-01",
+    "datasetId": 01,
+    "datasetDescription": "",
+    "wellSampleId": "",
+    "imageTimestamp": 0.0,
+    "imageId": 2008101501,
+    "pixelsType": "uint8"
+  },
+  "tiles": false,
+  "interpolate": true,
+  "size": {
+    "width": 600,
+    "height": 600,
+    "z": 66,
+    "t": 360,
+    "c": 1
+  },
+  "pixel_size": {
+    "x": 0.1015,
+    "y": 0.1015,
+    "z": 0.506
+  },
+  "init_zoom": 0,
+  "pixel_range": [
+    0,
+    255
+  ],
+  "channels": [
+    {
+      "emissionWave": null,
+      "label": "DIC",
+      "color": "FFFFFF",
+      "inverted": false,
+      "reverseIntensity": false,
+      "famly": "linear",
+      "coefficient": 1.0
+      "window": {
+        "min": 0.0,
+        "max": 255.0,
+        "start": 0.0,
+        "end": 255.0
+      },
+      "active": true
+    }
+  },
+  "rdefs": {
+    "model": "gray",
+    "projection": "normal",
+    "defaultZ": 20,
+    "defaultT": 0,
+    "invertAxis": false
+  }
+}
+

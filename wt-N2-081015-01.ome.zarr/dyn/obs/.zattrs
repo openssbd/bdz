@@ -1,0 +1,12 @@
+{
+    "_index": "_index",
+    "column-order": [
+        "id",
+        "entity",
+        "name",
+        "sphericity",
+        "volume"
+    ],
+    "encoding-type": "dataframe",
+    "encoding-version": "0.1.0"
+}
