@@ -25,9 +25,8 @@ We have already developed several data formats based on XML and HDF5, but we wan
 
 ### Example datasets:
 
-http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr/
-
-http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr.zip
+- http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr/
+- http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr.zip
 
 Kyoda, K., Okada, H., Itoga, H. and Onami, S.: ‘Deep Collection of Quantitative Nuclear Division Dynamics Data in RNAi-Treated Caenorhabditis Elegans Embryos’. bioRxiv, https://doi.org/10.1101/2020.10.04.325761.
 
