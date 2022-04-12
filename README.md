@@ -38,5 +38,7 @@ https://github.com/kevinyamauchi/ome-ngff-tables-prototype
 pip install git+https://github.com/kevinyamauchi/ome-ngff-tables-prototype
 ```
 
+https://github.com/openssbd/bdz/blob/main/view_kyoda_wormdata.ipynb
+
 ![screenshot01](https://user-images.githubusercontent.com/17229969/162355694-a37fa183-3407-4e37-a855-5cbac19c85b7.png)
 ![screenshot02](https://user-images.githubusercontent.com/17229969/162355708-9380052a-3f8d-470e-ba5c-1113f4710b48.png)
