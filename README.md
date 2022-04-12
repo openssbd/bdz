@@ -32,6 +32,7 @@ Kyoda, K., Okada, H., Itoga, H. and Onami, S.: ‘Deep Collection of Quantitativ
 ### Sample viewing with napari image viewer
 
 It requires the module from Kevin Yamauchi:
+
 https://github.com/kevinyamauchi/ome-ngff-tables-prototype
 ```
 pip install git+https://github.com/kevinyamauchi/ome-ngff-tables-prototype
