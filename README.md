@@ -30,5 +30,12 @@ http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr/
 Kyoda, K., Okada, H., Itoga, H. and Onami, S.: ‘Deep Collection of Quantitative Nuclear Division Dynamics Data in RNAi-Treated Caenorhabditis Elegans Embryos’. bioRxiv, https://doi.org/10.1101/2020.10.04.325761.
 
 ### Sample viewing with napari image viewer
+
+It requires the module from Kevin Yamauchi:
+https://github.com/kevinyamauchi/ome-ngff-tables-prototype
+```
+pip install git+https://github.com/kevinyamauchi/ome-ngff-tables-prototype
+```
+
 ![screenshot01](https://user-images.githubusercontent.com/17229969/162355694-a37fa183-3407-4e37-a855-5cbac19c85b7.png)
 ![screenshot02](https://user-images.githubusercontent.com/17229969/162355708-9380052a-3f8d-470e-ba5c-1113f4710b48.png)
