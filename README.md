@@ -25,7 +25,7 @@ We have already developed several data formats based on XML and HDF5, but we wan
 
 ### Example datasets:
 
-- ~~http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr/
+- ~~http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr/~~
 - https://uk1s3.embassy.ebi.ac.uk/bdz/0.1/wt-N2-081015-01.ome.zarr (updated 22 April 22)
 - http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr.zip
 
@@ -42,7 +42,7 @@ pip install git+https://github.com/kevinyamauchi/ome-ngff-tables-prototype
 
 https://github.com/openssbd/bdz/blob/main/view_kyoda_wormdata.ipynb
 
-[updated 22 Apr 22 - currently there is error on accessing tracking data via S3 ... under investigation]
+**[updated 22 Apr 22 - currently there is error on accessing tracking data via S3 ... under investigation]**
 
 ![screenshot01](https://user-images.githubusercontent.com/17229969/162355694-a37fa183-3407-4e37-a855-5cbac19c85b7.png)
 ![screenshot02](https://user-images.githubusercontent.com/17229969/162355708-9380052a-3f8d-470e-ba5c-1113f4710b48.png)
