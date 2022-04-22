@@ -27,6 +27,7 @@ We have already developed several data formats based on XML and HDF5, but we wan
 
 - ~~http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr/~~
 - https://uk1s3.embassy.ebi.ac.uk/bdz/0.1/wt-N2-081015-01.ome.zarr (updated 22 April 22)
+  - Special acknowledgement to **Mathew Hartley (EMBL-EBI) and BioImage Archive** for providing valuable S3 storage and support for this project
 - http://so.qbic.riken.jp/ssbd/zarr/v0.3/wt-N2-081015-01.ome.zarr.zip
 
 Kyoda, K., Okada, H., Itoga, H. and Onami, S.: ‘Deep Collection of Quantitative Nuclear Division Dynamics Data in RNAi-Treated Caenorhabditis Elegans Embryos’. bioRxiv, https://doi.org/10.1101/2020.10.04.325761.
