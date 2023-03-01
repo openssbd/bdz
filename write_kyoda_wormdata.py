@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import glob
 import anndata as ad
+from scipy.sparse import csr_matrix
 import numpy as np
 from ome_zarr.io import parse_url
 import zarr
@@ -57,9 +58,10 @@ adata = ad.AnnData(X = dfa, obs = obs_meta)
 # simple 2D table is suitable for obsm data
 adata.obsm["tracking"] = obsp_raw
 
-# adata.write_zarr('dyn')
+# write as sparse data to obsp
+adata.obsp["tracking"] = csr_matrix(obsp_raw)
 
-store = parse_url("image.zarr", mode="w").store
+store = parse_url("wt-N2-081015-01.ome.zarr", mode="w").store
 root = zarr.group(store=store)
 
 tables_group = root.create_group(name="tables")
