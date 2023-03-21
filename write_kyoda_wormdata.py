@@ -6,7 +6,7 @@ from scipy.sparse import csr_matrix
 import numpy as np
 from ome_zarr.io import parse_url
 import zarr
-from ngff_tables_prototype.writer import write_table_regions
+from ngff_tables_prototype.writer import write_table_points
 
 
 df = pd.read_csv('wt-N2-081015-01.csv', names=('t', 'pid', 'cid', 'x', 'y', 'z', 'name', 'sphericity', 'volume', 'phase'))
@@ -55,8 +55,6 @@ obsp_meta = pd.DataFrame(obsp_raw, index = col.astype(str), columns = col.astype
 
 
 adata = ad.AnnData(X = dfa, obs = obs_meta)
-# simple 2D table is suitable for obsm data
-adata.obsm["tracking"] = obsp_raw
 
 # write as sparse data to obsp
 adata.obsp["tracking"] = csr_matrix(obsp_raw)
@@ -65,10 +63,7 @@ store = parse_url("wt-N2-081015-01.ome.zarr", mode="w").store
 root = zarr.group(store=store)
 
 tables_group = root.create_group(name="tables")
-write_table_regions(
+write_table_points(
     group=tables_group,
-    adata=adata,
-    region="labels/label_image",
-    region_key=None,
-    instance_key="cell_id"
+    adata=adata
 )
