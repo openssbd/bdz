@@ -1,4 +1,4 @@
-# BDZ
+# BD-Zarr
 **Zarr-based format for storing quantitative biosystems dynamics data**
 
 The following is some progress of storing ROIs and tables for tracking
