@@ -15,7 +15,7 @@ However, if, for example, the nuclear contour is represented as a set of vertice
 Knowing that there is a framework of AnnData, we think of using OME-Zarr Mask to describe the ROI based on pixels associated with the image, and storing the representative position for biological object in each row of X in AnnData. We think that the features for each biological object such as area, volume, mean value of GFP signal, etc., can be stored in obs.
 We think the same issue arises in spatial transcriptome data when describing data for a cell that are detected across multiple pixels.
 
-We think it would be hard to understand without some exmaples, so we would like to create some examples.
+We think it would be hard to understand without some examples, so we would like to create some examples.
 
 We have already developed several data formats based on XML and HDF5, but we want to make a new format highly compatible(?) with OME-NGFF.
 
