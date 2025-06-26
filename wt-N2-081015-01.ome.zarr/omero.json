@@ -41,7 +41,7 @@
       "color": "FFFFFF",
       "inverted": false,
       "reverseIntensity": false,
-      "famly": "linear",
+      "family": "linear",
       "coefficient": 1.0
       "window": {
         "min": 0.0,
